@@ -1,0 +1,139 @@
+
+
+/* Iniício | Configurações Globais */
+body,html, *{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+}
+
+a{
+  text-decoration: unset;
+}
+/* Final | Configurações Globais */
+
+/* Iniício | Barra de Navegação */
+nav{
+  height: 60px;
+  background: #FCC109;
+
+}
+
+.nav__container{
+  display: flex;
+  height: 100%;
+  width: 85%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  text-align: center;
+
+}
+.logo img{
+  width:150px;
+}
+
+.nav__container ul{
+  display: flex;
+  align-items: center;
+}
+.nav__container ul a{
+  margin: 20px;
+
+
+}
+.nav__container ul a li{
+  list-style: none;
+  color: #4F3C01;
+}
+
+#options--enter{
+  color: white;
+  padding: 8px 12px;
+  border: 1px solid white;
+  border-radius: 4px;
+  transition: background .2s;
+}
+
+#options--enter:hover{
+  background: white;
+  color: black;
+}
+/* Final | Barra de Navegação */
+
+/* Início | Header */
+
+header{
+  display: flex;
+  background: #FCC109;
+  overflow: hidden;
+}
+
+.header__content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  padding-left: 100px;
+  padding-right: 10px;
+}
+.header__content h2{
+  color: white;
+  width: 450px;
+  font-size: 54px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.header__content p{
+
+  font-size: 16px;
+  font-weight: 300;
+  color:white;
+  width: 500px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.header__content--sign-up input{
+  height: 40px;
+  width: 320px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  padding: 0 15px;
+}
+
+.header__content--sign-up button{
+  height: 40px;
+  width: 150px;
+  margin-left: -20px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  background: #3a3a3a;
+}
+.header__img img{
+  margin-bottom: -10px;
+}
+
+
+
+a i{
+  display: flex;
+  text-align: center;
+  color: white;
+  border: 1px solid white;
+  padding: 8px;
+  width: 20px;
+  border-radius: 4px;
+  transition: background .2s;
+}
+
+.header__content a i:hover{
+  background: white;
+  color: black;
+}
